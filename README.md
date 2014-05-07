@@ -1,4 +1,4 @@
-best-kindle-infographic
-=======================
+## Kindle Buyers Guide
+### Which Kindle Is Best?
 
-Best Kindle Infographic
+![Best Amazon Kindle](http://imgur.com/7nIeMWD.jpg)

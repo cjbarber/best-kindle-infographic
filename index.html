@@ -36,6 +36,10 @@
         <area  alt="" title="Best Ereader Research and Review Compilation" href="https://github.com/cjbarber/best-kindle" shape="rect" coords="745,3749,1078,3786" style="outline:none;" target="_self"     />
         </map>
 
+        <h3>Share This!</h3>
+        <div class="sharejs">
+        </div>
+
         <p>This project is maintained by <a href="https://github.com/cjbarber">cjbarber</a></p>
         <a href="https://twitter.com/chrisbarber" class="twitter-follow-button" data-show-count="false">Follow @chrisbarber</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -43,12 +47,14 @@
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/share.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="javascripts/jquery.rwdImageMaps.min.js"></script>
     <script>
     $(document).ready(function(e) {
       $('img[usemap]').rwdImageMaps();
     });
+    share = new Share('.sharejs');
     </script>
   </body>
 </html>
